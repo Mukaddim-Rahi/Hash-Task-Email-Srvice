@@ -11,45 +11,87 @@ html.body {
 }
 
 .navbar {
-    /* height:7rem;
-    width: 50rem;
-    background-color: brown; */
+    
+    
+    display: grid;
+    /* grid-template-columns: 500px 500px ; */
+    grid-template-columns: repeat(2, 1fr);
+    /* column-gap: 620px; */
+
+    border: 1px solid red;
+
+
+
 
 }
 
 .name-logo-container {
-    /* display: grid;
-    justify-items: start;
-    align-items: start; */
-    grid-template-columns: 1;
-    grid-template-rows: 3;
+    /* width: 50rem; */
+    padding: 2.1875rem 1.25rem 0.9375rem 1.5625rem;
+
+    display: grid;
+grid-template-columns: 50px 50px ;
+/* column-gap: 5px ; */
+border: 1px solid red;
+    
 
 }
 
 .logo {
+    display: grid;
+    grid-template-rows: 10px;
+
+}
+
+.logopart-1 {
     width: 2.25rem;
-height: 1.75431rem;
-flex-shrink: 0;
+    height: 1.75431rem;
     fill: #150050;
 
 }
 
+.logopart-2 {
+    width: 2.31163rem;
+    height: 2.48963rem;
+    fill: #5FBAFF;
+
+}
+
+
 .name {
+width: 14.375rem;
+height: 2.375rem;
+display: grid;
+grid-template-columns: 1fr 1fr ;
+column-gap: 12px ;
 
 
-    font-family: Tajawal;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 3rem;
-    color: #5FBAFF;
+    
+
+}
+
+.name-part-1 {
     color: #150050;
+    font-size: 2.5rem;
+    font-family: Tajawal;
+    font-style: normal;
+    line-height: 3rem;
+
+
+}
+
+.name-part-2 {
+    color: #5FBAFF;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-family: Tajawal;
+    font-weight: 700; 
+    line-height: 3rem;
 }
 
 .website {
-    /* display: grid;
-    justify-items: end;
-    align-items: start; */
-    grid-template-columns: 1;
-    grid-template-rows: 4;
+    padding: 2.1875rem 1.25rem 0.9375rem 1.5625rem;
+ width: 100%;
+display: flex;
+justify-content: flex-end;
 }
