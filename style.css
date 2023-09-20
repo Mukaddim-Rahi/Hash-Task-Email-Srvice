@@ -11,29 +11,18 @@ html.body {
 }
 
 .navbar {
-    
-    
+
     display: grid;
-    /* grid-template-columns: 500px 500px ; */
     grid-template-columns: repeat(2, 1fr);
-    /* column-gap: 620px; */
-
-    border: 1px solid red;
-
-
-
 
 }
 
 .name-logo-container {
-    /* width: 50rem; */
+
     padding: 2.1875rem 1.25rem 0.9375rem 1.5625rem;
 
     display: grid;
-grid-template-columns: 50px 50px ;
-/* column-gap: 5px ; */
-border: 1px solid red;
-    
+    grid-template-columns: 50px 50px;
 
 }
 
@@ -59,14 +48,14 @@ border: 1px solid red;
 
 
 .name {
-width: 14.375rem;
-height: 2.375rem;
-display: grid;
-grid-template-columns: 1fr 1fr ;
-column-gap: 12px ;
+    width: 14.375rem;
+    height: 2.375rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12px;
 
 
-    
+
 
 }
 
@@ -85,13 +74,56 @@ column-gap: 12px ;
     font-size: 2.5rem;
     line-height: 3rem;
     font-family: Tajawal;
-    font-weight: 700; 
+    font-weight: 700;
     line-height: 3rem;
 }
 
 .website {
     padding: 2.1875rem 1.25rem 0.9375rem 1.5625rem;
- width: 100%;
-display: flex;
-justify-content: flex-end;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-container {
+    margin-top: 1.5rem;
+
+    display: grid;
+    grid-template-rows: 1fr .25fr;
+    justify-items: center;
+    row-gap: 25px;
+
+}
+
+.profile-pic {
+
+    width: 9.375rem;
+    height: 9.375rem;
+
+}
+
+.profile-text {
+    color: #150050;
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Reem Kufi Fun', sans-serif;
+
+}
+
+.massage {
+    color: #424242;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.body-header-text{
+
 }
